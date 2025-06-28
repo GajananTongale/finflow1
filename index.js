@@ -46,7 +46,8 @@ var vite_config_default = defineConfig({
       strict: true,
       deny: ["**/.*"]
     }
-  }
+  },
+  base: "/finflow1/"
 });
 
 // server/vite.ts
